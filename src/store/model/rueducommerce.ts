@@ -4,16 +4,16 @@ export const RueDuCommerce: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: 'btn.btn--prin.add-product',
+      container: 'a#add-product.btn.btn--prin.add-product',
       text: [''],
     },
     maxPrice: {
-      container: '.price .price',
+      container: '.span.dyn_prod_price',
       euroFormat: true,
     },
     outOfStock: {
-      container: '.stock',
-      text: ['rupture'],
+      container: 'a#availability-alert.price-alert',
+      text: [''],
     },
   },
   links: [

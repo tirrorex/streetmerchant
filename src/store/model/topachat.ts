@@ -8,7 +8,7 @@ export const TopAchat: Store = {
       text: [''],
     },
     maxPrice: {
-      container: 'span.priceFinal.fp44',
+      container: 'eproduct.NOR.span.priceFinal.fp44',
     },
   },
   links: [

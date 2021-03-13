@@ -4,11 +4,11 @@ export const Ldlc: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: 'button.picto.color2.noMarge.add-to-cart',
+      container: '.button.picto.color2.noMarge.add-to-cart',
       text: [''],
     },
     maxPrice: {
-      container: '.price .price',
+      container: '.div.price',
       euroFormat: true,
     },
     outOfStock: {
