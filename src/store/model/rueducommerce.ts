@@ -1,11 +1,11 @@
 import { Store } from './store';
 
-export const Ldlc: Store = {
+export const RueDuCommerce: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '.stock',
-      text: ['stock'],
+      container: 'btn.btn--prin.add-product',
+      text: [''],
     },
     maxPrice: {
       container: '.price .price',
@@ -21,7 +21,7 @@ export const Ldlc: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00317660.html',
+      url: 'https://www.rueducommerce.fr/produit/msi-carte-mere-b450-tomahawk-max-socket-am4-chipset-b450-84157481?articleOfferId=2639532',
     },
     {
       brand: 'asus',
@@ -924,5 +924,5 @@ export const Ldlc: Store = {
       url: 'https://www.ldlc.com/fiche/PB00401472.html',
     },
   ],
-  name: 'ldlc',
+  name: 'rueducommerce',
 };

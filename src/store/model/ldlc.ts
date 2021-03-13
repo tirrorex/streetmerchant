@@ -4,8 +4,8 @@ export const Ldlc: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '.stock',
-      text: ['stock'],
+      container: 'button.picto.color2.noMarge.add-to-cart',
+      text: [''],
     },
     maxPrice: {
       container: '.price .price',
@@ -21,7 +21,7 @@ export const Ldlc: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.ldlc.com/fr-be/fiche/PB00317660.html',
+      url: 'https://www.ldlc.com/fiche/PB00392933.html',
     },
     {
       brand: 'asus',
