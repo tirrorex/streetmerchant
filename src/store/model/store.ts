@@ -266,7 +266,13 @@ export type Model =
   | 'ventus 3x 8g'
   | 'gamingPro oc'
   | 'jetStream oc'
-  | 'twin edge oc white edition';
+  | 'twin edge oc white edition'
+  | 'ventus 2x v1'
+  | 'ventus 2x ocv1'
+  | 'xlr8 revel epic-x'
+  | 'strix 8g gaming'
+  | 'strix 08g white'
+  | 'xlr8 gaming epic-x rgb metal';
 
 export type Link = {
   brand: Brand;
