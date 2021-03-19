@@ -8,13 +8,15 @@ export const Ldlc: Store = {
       text: [''],
     },
     maxPrice: {
-      container: '.div.price',
+      container: '.product-info > .wrap-aside > aside > .price > .price',
       euroFormat: true,
     },
-    outOfStock: {
-      container: '.stock',
-      text: ['rupture'],
-    },
+    outOfStock: [
+      {
+        container: '#availability-alert',
+        text: [''],
+      },
+    ],
   },
   links: [
     {
@@ -223,7 +225,7 @@ export const Ldlc: Store = {
     },
     {
       brand: 'asus',
-      model: 'tuf 080g gaming',
+      model: 'tuf o8g gaming',
       series: '3070',
       url: 'https://www.ldlc.com/fiche/PB00384232.html',
     },
@@ -469,7 +471,7 @@ export const Ldlc: Store = {
     },
     {
       brand: 'asus',
-      model: 'tuf 010g gaming',
+      model: 'tuf o10g gaming',
       series: '3080',
       url: 'https://www.ldlc.com/fr-be/fiche/PB00368844.html',
     },

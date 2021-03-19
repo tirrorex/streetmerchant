@@ -1,20 +1,22 @@
 import { Store } from './store';
 
-export const RueDuCommerce: Store = {
+ export const RueDuCommerce: Store = {
   currency: '€',
   labels: {
     inStock: {
       container: 'a#add-product.btn.btn--prin.add-product',
-      text: [''],
+      text: [ '' ]
     },
     maxPrice: {
-      container: '.span.dyn_prod_price',
-      euroFormat: true,
+      "container": '.dyn_prod_price',
+      "euroFormat": true
     },
-    outOfStock: {
-      container: 'a#availability-alert.price-alert',
-      text: [''],
-    },
+    outOfStock: [
+      {
+        "container": 'link[itemprop="availability"]',
+        "text": [ '' ]
+      },
+    ],
   },
   links: [
     {
@@ -25,7 +27,7 @@ export const RueDuCommerce: Store = {
     },
     {
       brand: 'asus',
-      model: 'tuf 08g gaming',
+      model: 'tuf o8g gaming',
       series: '3060ti',
       url: 'https://www.ldlc.com/fiche/PB00394600.html',
     },
@@ -223,7 +225,7 @@ export const RueDuCommerce: Store = {
     },
     {
       brand: 'asus',
-      model: 'tuf 080g gaming',
+      model: 'tuf o8g gaming',
       series: '3070',
       url: 'https://www.ldlc.com/fiche/PB00384232.html',
     },
@@ -469,7 +471,7 @@ export const RueDuCommerce: Store = {
     },
     {
       brand: 'asus',
-      model: 'tuf 010g gaming',
+      model: 'tuf o10g gaming',
       series: '3080',
       url: 'https://www.ldlc.com/fr-be/fiche/PB00368844.html',
     },

@@ -8,20 +8,27 @@ export const TopAchat: Store = {
       text: [''],
     },
     maxPrice: {
-      container: 'eproduct.NOR.span.priceFinal.fp44',
+      container: 'span[itemprop="price"]',
+      euroFormat: true,
     },
+    outOfStock: [
+      {
+        container: '#cart-box en-rupture',
+        text: [''],
+      },
+    ],
   },
   links: [
     {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url:
-        'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_w_kitevo_puis_ref_est_in20008221.html',
+      cartUrl: 'https://www.topachat.com/pages/mon_panier.php?refs=in20008221',
+      url: 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_w_kitevo_puis_ref_est_in20008221.html',
     },
     {
       brand: 'asus',
-      model: 'tuf 08g gaming',
+      model: 'tuf o8g gaming',
       series: '3060ti',
       url: 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wgfx_pcie_puis_ref_est_in20006242.html',
     },
@@ -213,7 +220,7 @@ export const TopAchat: Store = {
     },
     {
       brand: 'asus',
-      model: 'tuf 08g gaming',
+      model: 'tuf o8g gaming',
       series: '3070',
       url: 'https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wgfx_pcie_puis_ref_est_in20005629.html',
     },

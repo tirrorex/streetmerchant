@@ -191,7 +191,7 @@ export type Model =
   | 'xlr8 uprising'
   | 'xtreme 10g'
   | 'xtreme waterforce 10g'
-  | 'tuf 08g gaming'
+  | 'tuf o8g gaming'
   | 'tuf 8g gaming'
   | 'dual 08g'
   | 'dual 8g'
@@ -211,7 +211,7 @@ export type Model =
   | 'ventus 2x 8g ocv1'
   | 'gaming x trio 8g'
   | 'tuf 10g gaming'
-  | 'tuf 010g gaming'
+  | 'tuf o10g gaming'
   | 'strix 010g gaming'
   | 'strix 10g gaming'
   | 'xc3 ultra gaming'
@@ -253,7 +253,7 @@ export type Model =
   | 'gaming x trio 24g'
   | 'ventus 3x 24g oc'
   | 'strix 08g gaming'
-  | 'tuf 080g gaming'
+  | 'tuf o80g gaming'
   | '8g'
   | 'strix 8g white'
   | 'aorus master 8g'
@@ -272,7 +272,8 @@ export type Model =
   | 'xlr8 revel epic-x'
   | 'strix 8g gaming'
   | 'strix 08g white'
-  | 'xlr8 gaming epic-x rgb metal';
+  | 'xlr8 gaming epic-x rgb metal'
+  | 'tuf o8g gaming';
 
 export type Link = {
   brand: Brand;
