@@ -27,7 +27,7 @@ export const Ldlc: Store = {
     },
     {
       brand: 'asus',
-      model: 'tuf 08g gaming',
+      model: 'tuf o8g gaming',
       series: '3060ti',
       url: 'https://www.ldlc.com/fiche/PB00394600.html',
     },
