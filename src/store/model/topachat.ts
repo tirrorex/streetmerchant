@@ -10,7 +10,7 @@ export const TopAchat: Store = {
     },
     maxPrice: {
       container: 'span[itemprop="price"]',
-      euroFormat: true,
+      euroFormat: false,
     },
     outOfStock: [
       {
